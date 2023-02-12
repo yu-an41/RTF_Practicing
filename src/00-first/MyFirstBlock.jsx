@@ -24,12 +24,12 @@ function MyFirstBlock() {
 
         renderer.render(scene, camera)
 
-        return () => {
-            renderer.forceContextLoss()
-            renderer.dispose()
-            cube.geometry.dispose()
-            cube.material.dispose()
-        }
+        // return () => {
+        //     renderer.forceContextLoss()
+        //     renderer.dispose()
+        //     cube.geometry.dispose()
+        //     cube.material.dispose()
+        // }
 
     }, [])
   return (
